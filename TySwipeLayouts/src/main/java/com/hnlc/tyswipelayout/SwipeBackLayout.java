@@ -101,7 +101,7 @@ public class SwipeBackLayout extends FrameLayout {
         super(context, attrs);
         mDragHelper = ViewDragHelper.create(this, new ViewDragCallback());
 
-        setShadow(R.drawable.shadow_left);
+        setShadow(R.drawable.shadow_left_noscrm);
 
         final float density = getResources().getDisplayMetrics().density;
         final float minVel = MIN_FLING_VELOCITY * density;
@@ -242,6 +242,7 @@ public class SwipeBackLayout extends FrameLayout {
         if (!mEnable || mDisallowIntercept) {
             return false;
         }
+        Utils.convertActivityToTranslucent(mActivity);
         try {
             return mDragHelper.shouldInterceptTouchEvent(event);
         } catch (Exception e) {
