@@ -1,1 +1,1 @@
-include':TySwipeLayouts'
+include ':app', ':TySwipeLayouts'
