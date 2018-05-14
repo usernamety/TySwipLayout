@@ -5,8 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 
-import com.hnlc.tvtransictionanimation.myswipback.TySwipBackActivity;
-import com.hnlc.tvtransictionanimation.myswipback.SwipeBackHelper;
+import com.hnlc.tyswipelayout.SwipeBackHelper;
+import com.hnlc.tyswipelayout.TySwipBackActivity;
 
 public class MainActivity extends TySwipBackActivity {
 

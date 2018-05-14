@@ -1,6 +1,6 @@
 <resources>
 
-    <style name="TySwipLayoutAnim" parent="@android:style/Animation.Translucent">
+    <style name="TySwipLayoutAnim" parent="@android:style/Animation.Activity">
         <!--新Activity进入动画-->
         <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
         <!--旧Activity退出动画-->

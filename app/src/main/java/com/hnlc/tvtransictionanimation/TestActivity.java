@@ -4,7 +4,8 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.Window;
 
-import com.hnlc.tvtransictionanimation.myswipback.TySwipBackActivity;
+import com.hnlc.tyswipelayout.TySwipBackActivity;
+
 
 /**
  * Created by 汤意 on 2018/5/14.
