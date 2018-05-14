@@ -242,7 +242,6 @@ public class SwipeBackLayout extends FrameLayout {
         if (!mEnable || mDisallowIntercept) {
             return false;
         }
-        Utils.convertActivityToTranslucent(mActivity);
         try {
             return mDragHelper.shouldInterceptTouchEvent(event);
         } catch (Exception e) {

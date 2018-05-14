@@ -32,7 +32,7 @@ public class TySwipBackActivity extends AppCompatActivity {
 
                     @Override
                     public void onEdgeTouch() {//当开始滑动
-
+                        Utils.convertActivityToTranslucent(TySwipBackActivity.this);
                     }
 
                     @Override
