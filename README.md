@@ -3,7 +3,7 @@
 
 ### 使用方法
 #### dependencies {
-	        implementation 'com.github.usernamety:TySwipLayout:v1.0.9'
+	        implementation 'com.github.usernamety:TySwipLayout:v1.0.12'
 	}
 ### 解除windowIsTranslucent=true限制
  < item name="android:windowIsTranslucent">false</ item >
